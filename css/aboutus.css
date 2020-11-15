@@ -1,0 +1,46 @@
+.pgframe{
+			margin-top: 50px;
+		}
+		.card{
+			border-style: none;
+		}
+		a{
+			transition: 0.5s ease;
+		}
+		a:hover{
+			text-decoration: none;
+			color: #ff7f50;
+		}
+		h1,h3{
+			font-family: 'Playfair Display', serif;
+			color: #ff7f50;
+		}
+		p,footer{
+			font-family: 'Open Sans', sans-serif;
+		    font-size: 12px;
+		    letter-spacing: 0.5px;
+		    line-height: 1.6;
+		}	
+		@media screen and (min-width: 576px) {
+		  p,footer{
+		    font-size: 13px;
+		  }
+		}
+		@media screen and (min-width: 768px) {
+		  p,footer{
+		    font-size: 13px;
+		  }
+		}
+		@media screen and (min-width: 992px) {
+		  p,footer{
+		    font-size: 14px;
+		  }
+		}
+		@media screen and (min-width: 1200px) {
+		  p,footer{
+		    font-size: 14px;
+		  }
+		}
+			.page-footer{
+			margin-top: 5%;
+		}

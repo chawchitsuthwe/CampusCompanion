@@ -1,0 +1,163 @@
+	.pgframe{
+			margin-top: 50px;
+		}
+	.card{
+			border-style: none;
+		}
+		a{
+			transition: 0.5s ease;
+		}
+		a:hover{
+			text-decoration: none;
+			color: #ff7f50;
+		}
+		h1,h3{
+			font-family: 'Playfair Display', serif;
+			color: #ff7f50;
+		}
+		p,footer{
+			font-family: 'Open Sans', sans-serif;
+		    font-size: 12px;
+		    letter-spacing: 0.5px;
+		    line-height: 1.6;
+		}	
+		@media screen and (min-width: 576px) {
+		  p,footer{
+		    font-size: 13px;
+		  }
+		}
+		@media screen and (min-width: 768px) {
+		  p,footer{
+		    font-size: 13px;
+		  }
+		}
+		@media screen and (min-width: 992px) {
+		  p,footer{
+		    font-size: 14px;
+		  }
+		}
+		@media screen and (min-width: 1200px) {
+		  p,footer{
+		    font-size: 14px;
+		  }
+		}
+			.page-footer{
+			margin-top: 5%;
+		}
+	/* The container-1 */
+	.container-1 {
+	  display: block;
+	  position: relative;
+	  padding-left: 35px;
+	  margin-bottom: 12px;
+	  cursor: pointer;
+	  font-family: 'Source Sans Pro', sans-serif;
+	  font-size: 16px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	}
+
+	/* Hide the browser's default radio button */
+	.container-1 input {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+	}
+
+	/* Create a custom radio button */
+	.checkmark {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  height: 25px;
+	  width: 25px;
+	  background-color: #eee;
+	  border-radius: 50%;
+	}
+
+	/* On mouse-over, add a grey background color */
+	.container-1:hover input ~ .checkmark {
+	  background-color: #ccc;
+	}
+
+	/* When the radio button is checked, add a blue background */
+	.container-1 input:checked ~ .checkmark {
+	  background-color: #ff7f50;
+	}
+
+	/* Create the indicator (the dot/circle - hidden when not checked) */
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+
+	/* Show the indicator (dot/circle) when checked */
+	.container-1 input:checked ~ .checkmark:after {
+	  display: block;
+	}
+
+	/* Style the indicator (dot/circle) */
+	.container-1 .checkmark:after {
+	 	top: 9px;
+		left: 9px;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: white;
+	}
+	}/* Style inputs with type="text", select elements and textareas */
+	input[type=text], select, textarea {
+	  width: 100%; /* Full width */
+	  padding: 12px; /* Some padding */ 
+	  border: 1px solid #ccc; /* Gray border */
+	  border-radius: 4px; /* Rounded borders */
+	  box-sizing: border-box; /* Make sure that padding and width stays in place */
+	  margin-top: 6px; /* Add a top margin */
+	  margin-bottom: 16px; /* Bottom margin */
+	  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+
+	/* Style the submit button with a specific background color etc */
+	input[type=submit] {
+	    font-family: 'Source Sans Pro', sans-serif;
+	    font-size: 20px;
+	    font-weight: bold;
+	    border-style: none;
+	    border-radius: 25px;
+	    margin: 30px 5px 5px 5px;
+	    padding: 5px 30px 5px 30px;
+	    background-color: transparent;
+	    border:1px solid #000;
+	    color: #000;
+	    transition: 0.5s ease;
+	}
+
+	/* When moving the mouse over the submit button, add a darker green color */
+	input[type=submit]:hover {
+	    background-color: #ffffff;
+	    border-color: #ff7f50;
+	    color: #ff7f50;
+	    opacity: .85;}
+
+	.test{
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		border-style: none;
+		border-radius: 25px;
+		margin: 60px 5px 5px 5px;
+		padding: 5px 30px 5px 30px;
+		background-color: transparent;
+		border:1px solid #000;
+		color: #000;
+		transition: 0.5s ease;
+		}
+	.test:hover{
+		background-color: #ffffff;
+		border-color: #ff7f50;
+		color: #ff7f50;
+		opacity: .85;
+		}

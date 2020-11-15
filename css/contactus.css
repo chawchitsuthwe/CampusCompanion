@@ -1,0 +1,69 @@
+	.head-img-container {
+		  background-image: url("contact-us-iphone3.jpg");
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  padding-top: 170px;
+		  height: 550px;
+	}
+h1,h3{
+      font-family: 'Playfair Display', serif;
+      color: #ff7f50;
+    }
+    label,p,footer{
+      font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        line-height: 1.6;
+    } 
+    @media screen and (min-width: 576px) {
+      label,p,footer{
+        font-size: 13px;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      label,p,footer{
+        font-size: 13px;
+      }
+    }
+    @media screen and (min-width: 992px) {
+      label,p,footer{
+        font-size: 14px;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      label,p,footer{
+        font-size: 14px;
+      }
+    }
+
+	/* Style inputs with type="text", select elements and textareas */
+	input[type=text], select, textarea {
+	  width: 100%; /* Full width */
+	  padding: 12px; /* Some padding */ 
+	  border: 1px solid #ccc; /* Gray border */
+	  border-radius: 4px; /* Rounded borders */
+	  box-sizing: border-box; /* Make sure that padding and width stays in place */
+	  margin-top: 6px; /* Add a top margin */
+	  margin-bottom: 16px; /* Bottom margin */
+	  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+
+	/* Add a background color and some padding around the form */
+	.cuform {
+	  border-radius: 5px;
+	  padding: 20px;
+	} 
+	.mapouter{
+		position:relative;
+		text-align:right;
+		width:1000px;
+		height:400px;
+		}
+	.gmap_canvas {
+		overflow:hidden;
+		background:none!important;
+		width:1000px;
+		height:400px;
+	}

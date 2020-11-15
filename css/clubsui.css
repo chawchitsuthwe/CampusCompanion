@@ -1,0 +1,67 @@
+		.clubframe{
+			margin-top: 100px;
+		}
+		.col-sm-4{
+			margin-top: 50px;
+		}
+
+		.test{
+		    font-family: 'Roboto', sans-serif;
+		    font-size: 16px;
+		    font-weight: bold;
+		    border-style: none;
+		    border-radius: 25px;
+		    margin: 60px 5px 5px 5px;
+		    padding: 5px 30px 5px 30px;
+		    background-color: transparent;
+		    border:1px solid #000;
+		    color: #000;
+		    transition: 0.5s ease;
+		}
+		.test:hover{
+		    background-color: #ffffff;
+		    border-color: #ff7f50;
+		    color: #ff7f50;
+		    opacity: .85;
+		}
+		a{
+			transition: 0.5s ease;
+		}
+		a:hover{
+			text-decoration: none;
+			color: #ff7f50;
+		}
+		h1{
+			font-family: 'Playfair Display', serif;
+			color: #ff7f50;
+		}
+		p,footer{
+			font-family: 'Open Sans', sans-serif;
+		    	font-size: 12px;
+		    	letter-spacing: 0.5px;
+			line-height: 1.6;
+		}
+		@media screen and (min-width: 576px) {
+		  p,footer{
+		    font-size: 13px;
+		  }
+		}
+		@media screen and (min-width: 768px) {
+		  p,footer{
+		    font-size: 13px;
+		  }
+		}
+		@media screen and (min-width: 992px) {
+		  p,footer{
+		    font-size: 14px;
+		  }
+		}
+		@media screen and (min-width: 1200px) {
+		  p,footer{
+		    font-size: 14px;
+		  }
+		}
+
+		.page-footer{
+			margin-top: 5%;
+		}
